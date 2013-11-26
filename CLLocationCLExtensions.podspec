@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.exclude_files = 'Classes/Exclude'
   s.framework  = 'CoreLocation'
   s.requires_arc = true
+  s.license      = { :type => 'Free', :file => 'LICENSE' }
 end
